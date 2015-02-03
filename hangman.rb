@@ -37,6 +37,7 @@ class Hangman
 	end	
 
 	def guess
+		puts "Enter your guess..."
 		attempt = gets.chomp.downcase
 		# puts attempt.length
 		if( validation?(attempt) )
